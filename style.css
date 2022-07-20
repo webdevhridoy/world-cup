@@ -102,27 +102,7 @@
     margin: 10px 0;
     transition: transform 0.5s ;
 }
-/* #filter-button-2{
-    display: inline-block;
-    color: #000000;
-    text-decoration: none;
-    background-color: #ffffff;
-    padding: 10px 60px;
-    border-radius: 5px;
-    margin-top: 10px;
-    transition: transform 0.5s;
-}
 
-#filter-button-3 {
-    display: inline-block;
-    color: #000;
-    text-decoration: none;
-    background-color: #fff;
-    padding: 10px 80px;
-    border-radius: 5px;
-    margin-top: 10px;
-    transition: transform 0.5s ;
-} */
 .filter-item a.active {
     color: #fff;
     background-color: #DD0000;
