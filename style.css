@@ -23,6 +23,9 @@
     width: 50%;
     padding-left: 7%;
 }
+.banner-description {
+    padding-right: 70px;
+}
 .banner-image {
     width: 50%;
     padding-right: 7%;
@@ -127,9 +130,15 @@
     flex-direction: column;
     width: 75%;
 }
+.article-thumbnail {
+    border-radius: 5px;
+}
 .article-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+}
+.article-thumbnail {
+    border: 20px ;
 }
 .article-information {
     padding: 15px;
@@ -158,6 +167,31 @@
     text-align: center;
 }
 /* Upcoming Match Style End */
+
+/* All Group style started */
+.club {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px 0 20px;
+}
+.club-name{
+    margin: 0 10px;
+    font-weight: 700;
+}
+.club-title {
+    text-align: center;
+    font-size: 12px;
+}
+.club-link a {
+    display: inline-block;
+    padding: 18px 0 0 0;
+    font-size: 15px !important;
+}
+
+
+/* All Group style started */
 
 .article-info img {
     width: 100%;
