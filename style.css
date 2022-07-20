@@ -380,7 +380,7 @@ hr{
         margin: 20px;
     }
     .banner-title {
-        font-size: 25px;
+        font-size: 18px;
     }
     .banner-content {
         width: 100%;
@@ -394,6 +394,7 @@ hr{
     .banner-image {
         width: 100%;
     }     
+   
     
     .news-container {
         flex-direction: row;
