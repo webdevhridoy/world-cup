@@ -92,16 +92,17 @@
     margin-top: 5px;
 }
 .filter-button {
-    display: inline-block;
-    color: #000000;
+    display: block;
+    color: #000;
+    text-align: center;
     text-decoration: none;
-    background-color: #ffffff;
+    background-color: #fff;
     padding: 10px 25px;
     border-radius: 5px;
     margin: 10px 0;
     transition: transform 0.5s ;
 }
-#filter-button-2{
+/* #filter-button-2{
     display: inline-block;
     color: #000000;
     text-decoration: none;
@@ -111,15 +112,20 @@
     margin-top: 10px;
     transition: transform 0.5s;
 }
+
 #filter-button-3 {
     display: inline-block;
-    color: #fff;
+    color: #000;
     text-decoration: none;
-    background-color: #DD0000;
+    background-color: #fff;
     padding: 10px 80px;
     border-radius: 5px;
     margin-top: 10px;
     transition: transform 0.5s ;
+} */
+.filter-item a.active {
+    color: #fff;
+    background-color: #DD0000;
 }
 .filter-button:hover {
     transform: scale(1.2);
